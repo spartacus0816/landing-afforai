@@ -1,0 +1,81 @@
+.feedback-wrapper {
+  display: inline-block;
+  margin-right: 20px;
+
+}
+
+.feedback-wrapper .body {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  height: 266px;
+  padding: 32px;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 8px;
+}
+
+.feedback-content {
+  white-space: normal;
+  flex-grow: 1;
+  color: rgb(34, 34, 34);
+  font-size: 16px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.feeback-user-wrapper {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.contact {
+  background: rgb(246, 232, 229);
+  border: 1px solid rgb(255, 60, 5);
+  color: rgb(255, 58, 2);
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-radius: 7px;
+  padding: 0px 10px;
+  gap: 3px;
+}
+
+.infinite-scroll-loop-outer {
+  display: flex;
+  cursor: pointer;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+.infinite-scroll-loop-inner {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.laptop-landing-3-feedback {
+  margin-top: -310px;
+  top: 1000px;
+  z-index: 1;
+  width: 100%;
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+.laptop-landing-3-feedback>img {
+  height: auto;
+  width: 100%;
+}
